@@ -1,0 +1,139 @@
+
+html,body {
+	height: 100%;
+}
+.fr {
+	float: right;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content:"";
+	display: inline-block;
+	clear: both;
+}
+
+/***form 公用样式 start***/
+.form label {
+	display: inline-block;
+	padding: 0px 10px;
+	color: #4c4646;
+}
+
+.form input {
+	outline: none;
+	padding: 5px;
+	color: #666;
+	border: 1px solid #4c4646;
+	border-radius: 5px;
+}
+
+.form input:focus {
+	border: 1px solid #cc9999;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(204,153,153,.6);
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.btn {
+	padding: 6px 12px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	line-height: 1.5;
+	font-size: 16px;
+	vertical-align: middle;
+	white-space: nowrap;
+	outline: none;
+}
+
+.btn-default {
+	display: block;
+	margin-top: 10px;
+	background: #878080;
+	color: #fff;
+}
+
+.btn-bright {
+	background: #f18383;
+	color: #fff;
+	border-bottom: 3px solid #f06969;
+}
+
+.btn-default:hover {
+	background: #4c4646;
+	transition: background .4s ease-in-out;
+}
+
+.btn-default:active {
+	transform: translateY(2px);
+}
+/***form 公用样式 end***/
+
+/***layer 默认样式****/
+body .layer-default {
+	border-radius: 5px;
+}
+
+body .layer-default .layui-layer-title{
+	background: #4c4646;
+	color: #fff;
+	border: none;
+}
+
+body .layer-default .layui-layer-btn{
+	border-top: 1px solid #E9E7E7;
+}
+
+body .layer-default .layui-layer-btn {
+	text-align: center;
+} 
+
+body .layer-default .layui-layer-btn a{
+	background: #d3552d;
+	border: none;
+}
+
+body .layer-default .layui-layer-btn .layui-layer-btn1{
+	background: #ddd;
+}
+
+/***layer 默认样式****/
+
+
+.fadeIn {
+	-webkit-animation: fadeIn .3s linear 1 forwards;
+}
+
+@-webkit-keyframes fadeIn {
+	form {
+		margin-top: 150px;
+	}
+	to {
+		margin-top: 100px;
+	}
+}
+
+body .editor-cat ul {
+	overflow: auto;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+}
+
+body .editor-cat ul li {
+	margin: 0 10px;
+	float: left;
+	line-height: 2.5;
+
+}
+
+body .editor-cat ul li a:hover {
+	font-weight: bolder;
+	text-decoration: none;
+}
