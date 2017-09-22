@@ -9,7 +9,6 @@
         border-top: 1px solid #ccc;
         clear: both;
         margin: 10px auto;
-        float: left;
     }
     .footer-icp {
         clear: both;

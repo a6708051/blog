@@ -41,11 +41,13 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => '112.74.31.21',
+            'host' => '160.19.49.185',
             'port' => '3306',
             'database' => 'blog',
-            'username' => 'web_blog',
-            'password' => 'WebBlog123',
+//            'username' => 'web_blog',
+//            'password' => 'WebBlog123',
+            'username' => 'root',
+            'password' => 'Kary123',
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
