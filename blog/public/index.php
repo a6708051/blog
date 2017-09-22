@@ -18,7 +18,7 @@
 | loading any of our classes later on. It feels great to relax.
 |
 */
-
+set_time_limit(0);
 require __DIR__.'/../bootstrap/autoload.php';
 
 /*
