@@ -30,6 +30,9 @@ Route::group(['namespace' => 'Admin'], function() {
     Route::get('admin/change/{id}', 'ArticleController@change');
     Route::post('admin/save', 'ArticleController@save');
 });
+Route::group(['namespace' => 'Wx'], function () {
+    Route::get('wx', 'IndexController@index');
+});
 //Auth::routes();
 //
 //Route::get('/home', 'HomeController@index')->name('home');

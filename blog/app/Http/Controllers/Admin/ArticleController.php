@@ -22,7 +22,6 @@ class ArticleController extends Controller {
     {
         $list = Models\Article::where('status', '>=', 0)->orderBy('id', 'desc')->paginate(10);
 
-
         foreach ($list as &$lv) {
             $lv['cat_id'] = explode(',', $lv['cat_id']);
         }

@@ -4,7 +4,8 @@ namespace App\Http\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class users extends Model
+class Wx_users extends Model
 {
-    protected $table = 'blog.blog_users';
+    protected $table = 'diary.diary_wx_users';
+
 }

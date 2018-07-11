@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Article_cat extends Model
 {
-    protected $table = 'article_cat';
+    protected $table = 'blog.blog_article_cat';
     //
 }

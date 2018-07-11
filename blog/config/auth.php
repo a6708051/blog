@@ -73,7 +73,7 @@ return [
 
         // 'users' => [
         //     'driver' => 'database',
-        //     'table' => 'users',
+        //     'table' => 'blog_users',
         // ],
     ],
 
@@ -95,7 +95,7 @@ return [
     'passwords' => [
         'users' => [
             'provider' => 'users',
-            'table' => 'password_resets',
+            'table' => 'blog_password_resets',
             'expire' => 60,
         ],
     ],
